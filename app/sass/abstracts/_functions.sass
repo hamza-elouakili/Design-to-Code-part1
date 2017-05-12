@@ -1,0 +1,11 @@
+@function px-to-blh($pixels)
+  @return $pixels / 26 * $blh
+
+@function blh($num)
+  @return $num * $blh
+
+@function grow($pixels)
+  @return $pixels * 1.125
+
+@function shrink($pixels)
+  @return $pixels * .875

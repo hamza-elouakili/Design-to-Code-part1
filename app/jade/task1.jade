@@ -1,0 +1,342 @@
+extends ./components/baseMockup
+
+block title
+    title Small Teaser Dashboard
+block overlay
+block content
+    header.header
+        .header__logo-container
+            .header__logo-container__logo
+            .header__logo-container__text Small Teaser
+        .header__search-container
+            .header__search-container__logo
+                include ./components/icons/search.html
+            .header__search-container__input
+                input(type='search', placeholder='Search')
+        .header__action-container
+            .header__action-container__earnings
+                p My Earnings &euro; 234,45
+            .header__action-container__launch
+                button(type='button') Launch
+            .header__action-container__write
+                button(type='button') Write
+            .header__notification-container__comment
+                include ./components/icons/comment.html
+                .header__notification-container__comment__counter-circle
+                    .header__notification-container__comment__counter-circle__text
+                        span 5
+            .header__notification-container__bell
+                include ./components/icons/bell.html
+                .header__notification-container__bell__counter-circle
+                    .header__notification-container__bell__counter-circle__text
+                        span 3
+        .header__login-container
+            .header__login-container__picture
+            .header__login-container__username
+                span Merlijn De Tovenaar
+    section.content__container
+        aside.content__container__aside
+            .menu__aside
+                .menu__aside__item
+                    .menu__aside__item__start-icon
+                        include ./components/icons/home.html
+                    .menu__aside__item__button
+                        button.accordion Home
+                .menu__aside__item
+                    .menu__aside__item__start-icon
+                        include ./components/icons/layout-media-left.html
+                    .menu__aside__item__button
+                        button.accordion My Stories
+                .menu__aside__item
+                    .menu__aside__item__start-icon
+                        include ./components/icons/book.html
+                    .menu__aside__item__button
+                        button.accordion My Publications
+                            .panel
+                                a(href="") Skydive Magazine
+                                br
+                                a(href="") Canid Aid
+                        .menu__aside__item__end-icon
+                            .menu__aside__item__end-icon__down
+                                include ./components/icons/angle-down.html
+                            .menu__aside__item__end-icon__up
+                                include ./components/icons/angle-up.html
+                .menu__aside__item
+                    .menu__aside__item__start-icon
+                        include ./components/icons/stats-up.html
+                    .menu__aside__item__button
+                        button.accordion My Analytics
+                .menu__aside__item
+                    .menu__aside__item__start-icon
+                        include ./components/icons/fullscreen.html
+                    .menu__aside__item__button
+                        button.accordion My Ad Campaigns
+                .menu__aside__item
+                    .menu__aside__item__start-icon
+                        include ./components/icons/heart.html
+                    .menu__aside__item__button
+                        button.accordion My Account
+                            .panel
+                                a(href="") Profile
+                                br
+                                a(href="") Interests
+                                br
+                                a(href="") Notification Settings
+                                br
+                                a(href="") Payment Details
+                        .menu__aside__item__end-icon
+                            .menu__aside__item__end-icon__down
+                                include ./components/icons/angle-down.html
+                            .menu__aside__item__end-icon__up
+                                include ./components/icons/angle-up.html
+                .menu__aside__item
+                    .menu__aside__item__start-icon
+                        include ./components/icons/view-list-alt.html
+                    .menu__aside__item__button
+                        button.accordion Recent Activity
+        section.content__container__section__middle
+            .section__layer-one
+                .section__layer-one__breadcrumb
+                    a(href="") You are here stories
+                .section__layer-one__settings
+                    include ./components/icons/settings.html
+            .section__layer-two
+                .section__layer-two__filter
+                    .section__layer-two__filter__icon
+                        include ./components/icons/filter.html
+                    span Filter
+                    <input type="search" name="filter" placeholder="Enter your filter term here.">
+                .section__layer-two__filter2
+                    span by publications
+                    select
+                        option(value="all/none") All / None
+                        option(value="saab") Saab
+            .section__layer-three
+                .section__layer-three__sort
+                    .section__layer-three__sort__icon
+                        include ./components/icons/exchange-vertical.html
+                    span Sort by
+                    select
+                        option(value="Name") Name
+                        option(value="Age") Age
+                .section__layer-three__view
+                    span View as
+                    .section__layer-three__view__items
+                        .inside
+                            include ./components/icons/layout-list-post.html
+                        .inside
+                            include ./components/icons/layout-list-thumb.html
+                        .insidelast
+                            include ./components/icons/layout-grid2-thumb.html
+            .section__layer-four
+                .section__layer-four__info
+                    h4 Hi there Merlijn,
+                    p.
+                        On this page you can find an overview of your articles.
+                        You can sort and filter them using one of the input fields
+                        above. Don't like the way the articles are displayed? Change your
+                    .section__layer-four__info__choice
+                        a(href="") Okay, got it!
+                        a(href="") Show me more information
+            .section__layer-five
+                .section__layer-five__article-posts
+                    .section__layer-five__article-posts__post1
+                        .layer1
+                            span Trump is Getting out of Control
+                        .layer2
+                            button(type="button") publisher
+                            span.date today 15:16 in
+                            span.link bruinebeer, World News, ...
+                        .layer3
+                            img(src="../assets/img/duckfie3.jpg")
+                        .layer4
+                            p.
+                                Trump has yet again shocked the world, now he claims
+                                scientists are lying about climate change because they
+                                don't like his pineapple tan...
+                        .layer5
+                            .item
+                                include ./components/icons/heart.html
+                                span 1,344
+                            .item
+                                include ./components/icons/eye.html
+                                span 2385
+                            .item
+                                include ./components/icons/comment.html
+                                span 21
+                            .item
+                                include ./components/icons/bookmark.html
+                                span apocalypse, ...
+                            .item
+                                include ./components/icons/more-alt.html
+
+
+                    .section__layer-five__article-posts__post2
+                        .layer1
+                            span Trump is Getting out of Control
+                        .layer2
+                            button(type="button") publisher
+                            span.date today 15:16 in
+                            span.link bruinebeer, World News, ...
+                        .layer3
+                            .img
+                                img(src="../assets/img/duckfie3.jpg")
+                                .text
+                                    p.
+                                        Trump has yet again shocked the world, now he claims
+                                        scientists are lying about climate change because they
+                                        don't like his pineapple tan...
+                        .layer4
+                        .layer5
+                            .item
+                                include ./components/icons/heart.html
+                                span 1,344
+                            .item
+                                include ./components/icons/eye.html
+                                span 2385
+                            .item
+                                include ./components/icons/comment.html
+                                span 21
+                            .item
+                                include ./components/icons/bookmark.html
+                                span apocalypse, ...
+                            .item
+                                include ./components/icons/more-alt.html
+                    .section__layer-five__article-posts__empty
+
+
+
+
+
+
+
+        aside.content__container__aside__menu
+            .menu__items
+                h5 recent activity
+                .menu__item
+                    .menu__item__pic
+                        img(src='../assets/img/duckfie.jpg')
+                    .menu__item__info
+                        p Skydive Magazine
+                        p Published a new article
+                .menu__item
+                    .menu__item__pic
+                        img(src='../assets/img/duckfie.jpg')
+                    .menu__item__info
+                        p Sansa Stark
+                        p Started following you
+                .menu__item
+                    .menu__item__pic
+                        img(src='../assets/img/duckfie.jpg')
+                    .menu__item__info
+                        p TekBlock
+                        p Published your article
+                .menu__item
+                    .menu__item__pic
+                        img(src='../assets/img/duckfie.jpg')
+                    .menu__item__info
+                        p Planned Maintenance Downtime
+                        p Tommorrow between 11pm and midnight
+                .menu__item
+                    .menu__item__pic
+                        img(src='../assets/img/duckfie.jpg')
+                    .menu__item__info
+                        p SkyDive Magazine
+                        p Sent you a message
+                .menu__item
+                    .menu__item__pic
+                        img(src='../assets/img/duckfie.jpg')
+                    .menu__item__info
+                        p Your article 'When lights go out...'
+                        p Reached 10k readers!
+            .menu__items
+                h5 Suggested for you
+                .menu__item
+                    .menu__item__pic
+                        img(src='../assets/img/duckfie.jpg')
+                    .menu__item__info
+                        p HyperDev
+                        p Hyper development
+                    .menu__item__icon
+                        <span>+</span>
+                .menu__item
+                    .menu__item__pic
+                        img(src='../assets/img/duckfie.jpg')
+                    .menu__item__info
+                        p Game of Bones
+                        p Game of thrones but better!
+                    .menu__item__icon
+                        <span>+</span>
+                .menu__item
+                    .menu__item__pic
+                        img(src='../assets/img/duckfie.jpg')
+                    .menu__item__info
+                        p Insanity Blog
+                        p Well, we salute you
+                    .menu__item__icon
+                        <span>+</span>
+                .menu__item
+                    .menu__item__pic
+                        img(src='../assets/img/duckfie.jpg')
+                    .menu__item__info
+                        p Computing Nothingness
+                        p The dark side.
+                    .menu__item__icon
+                        <span>+</span>
+                .menu__item
+                    .menu__item__pic
+                        img(src='../assets/img/duckfie.jpg')
+                    .menu__item__info
+                        p Lorem Ipsum?!
+                        p Nr1 Lorem Ipsum
+                    .menu__item__icon
+                        <span>+</span>
+            .menu__items
+                h5 Suggested for you
+                .menu__item
+                    .menu__item__pic
+                        img(src='../assets/img/duckfie.jpg')
+                    .menu__item__info
+                        .name
+                            p Gitta Van Bergen
+                    .menu__item__icon
+                        <span>+</span>
+                .menu__item
+                    .menu__item__pic
+                        img(src='../assets/img/duckfie.jpg')
+                    .menu__item__info
+                        .name
+                            p Julie Landen
+                    .menu__item__icon
+                        <span>+</span>
+                .menu__item
+                    .menu__item__pic
+                        img(src='../assets/img/duckfie.jpg')
+                    .menu__item__info
+                        .name
+                            p Scören Soderling
+                    .menu__item__icon
+                        <span>+</span>
+                .menu__item
+                    .menu__item__pic
+                        img(src='../assets/img/duckfie.jpg')
+                    .menu__item__info
+                        .name
+                            p Lars Hombeek
+                    .menu__item__icon
+                        <span>+</span>
+                .menu__item
+                    .menu__item__pic
+                        img(src='../assets/img/duckfie.jpg')
+                    .menu__item__info
+                        .name
+                            p Bert Lempens
+                    .menu__item__icon
+                        <span>+</span>
+
+
+
+    script(src="../js/accordion.js")
+
+
+

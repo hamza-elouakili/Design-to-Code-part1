@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1 1 13.144 13.144">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1e1e24;
+      }
+    </style>
+  </defs>
+  <g id="smt-black-no-padding" transform="translate(1.18 23.9)">
+    <g id="group" transform="translate(-0.18 -22.9)">
+      <path id="ellipse" class="cls-1" d="M1.041,0A1.037,1.037,0,1,1,0,1.037,1.037,1.037,0,0,1,1.041,0Z" transform="matrix(0.173, -0.985, 0.985, 0.173, 9.175, 8.11)"/>
+      <path id="path" class="cls-1" d="M47.682,15.928a1.059,1.059,0,0,0,1.347-.624,1.072,1.072,0,0,0-.622-1.353,1.059,1.059,0,0,0-1.347.624A1.091,1.091,0,0,0,47.682,15.928Z" transform="translate(-40.163 -11.989)"/>
+      <path id="path-2" data-name="path" class="cls-1" d="M60.87,26.894a1.05,1.05,0,1,0,.37-1.442A1.055,1.055,0,0,0,60.87,26.894Z" transform="translate(-51.856 -21.706)"/>
+      <path id="path-3" data-name="path" class="cls-1" d="M55.335,58.667a1.054,1.054,0,1,0,1.481.134A1.038,1.038,0,0,0,55.335,58.667Z" transform="translate(-46.943 -49.897)"/>
+      <path id="path-4" data-name="path" class="cls-1" d="M22.882,58.7a1.054,1.054,0,1,0,.133,1.486A1.051,1.051,0,0,0,22.882,58.7Z" transform="translate(-18.147 -49.932)"/>
+      <path id="ellipse-2" data-name="ellipse" class="cls-1" d="M1.037,0A1.04,1.04,0,1,1,0,1.041,1.037,1.037,0,0,1,1.037,0Z" transform="translate(1.536 6.424) rotate(-10.014)"/>
+      <ellipse id="ellipse-3" data-name="ellipse" class="cls-1" cx="1.036" cy="1.041" rx="1.036" ry="1.041" transform="translate(5.535 9.439)"/>
+      <g id="XMLID_2_" transform="translate(0)">
+        <g id="group-2" data-name="group">
+          <path id="path-5" data-name="path" class="cls-1" d="M82,37.8a6.607,6.607,0,0,1-.77,4.43h0l-.1-.059a3.975,3.975,0,0,1-.267-2.289,3.872,3.872,0,0,1,1.036-2.066Z" transform="translate(-68.953 -32.345)"/>
+          <path id="path-6" data-name="path" class="cls-1" d="M75.486,15.495l-.1.015a4,4,0,0,1-1.688-1.576,4.091,4.091,0,0,1-.533-2.245l.089-.089A6.537,6.537,0,0,1,75.486,15.495Z" transform="translate(-62.445 -10.039)"/>
+          <path id="path-7" data-name="path" class="cls-1" d="M63.476,67.2l.1.059a6.6,6.6,0,0,1-3.435,2.9l-.044-.1a4.106,4.106,0,0,1,1.259-1.932A3.84,3.84,0,0,1,63.476,67.2Z" transform="translate(-51.323 -57.374)"/>
+          <path id="path-8" data-name="path" class="cls-1" d="M49.405,2.631l-.089.089a4,4,0,0,1-2.28-.1A3.665,3.665,0,0,1,45.2,1.234h0V1.1a6.346,6.346,0,0,1,3.272.892A7.356,7.356,0,0,1,49.405,2.631Z" transform="translate(-38.629 -1.1)"/>
+          <path id="path-9" data-name="path" class="cls-1" d="M34.357,82.369l.044.1a6.685,6.685,0,0,1-4.5,0h0l.044-.1a4.01,4.01,0,0,1,2.191-.669A4.378,4.378,0,0,1,34.357,82.369Z" transform="translate(-25.594 -69.719)"/>
+          <path id="path-10" data-name="path" class="cls-1" d="M20.835,1.234h0A4.089,4.089,0,0,1,19,2.616a4.106,4.106,0,0,1-2.31.134L16.6,2.661A6.46,6.46,0,0,1,20.835,1.1Z" transform="translate(-14.264 -1.1)"/>
+          <path id="path-11" data-name="path" class="cls-1" d="M9.924,69.854l-.044.119a5.5,5.5,0,0,1-1.036-.491A6.4,6.4,0,0,1,6.4,67.015L6.533,67a4.1,4.1,0,0,1,2.1.907A3.96,3.96,0,0,1,9.924,69.854Z" transform="translate(-5.574 -57.204)"/>
+          <path id="path-12" data-name="path" class="cls-1" d="M3.825,11.6a4.091,4.091,0,0,1-.533,2.245A4.2,4.2,0,0,1,1.6,15.424l-.1-.015a6,6,0,0,1,.77-2.155A6.741,6.741,0,0,1,3.736,11.5Z" transform="translate(-1.399 -9.954)"/>
+          <path id="path-13" data-name="path" class="cls-1" d="M2.076,39.7a4.238,4.238,0,0,1-.267,2.289L1.676,42a6.585,6.585,0,0,1-.755-4.4l.1.045A3.8,3.8,0,0,1,2.076,39.7Z" transform="translate(-0.82 -32.174)"/>
+        </g>
+      </g>
+      <path id="path-14" data-name="path" class="cls-1" d="M15.94,27.341a1.052,1.052,0,1,0-.37-1.442A1.059,1.059,0,0,0,15.94,27.341Z" transform="translate(-13.263 -21.781)"/>
+      <path id="path-15" data-name="path" class="cls-1" d="M30.489,15.719a1.053,1.053,0,1,0-1.347-.624A1.024,1.024,0,0,0,30.489,15.719Z" transform="translate(-24.895 -11.809)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+section.background-container.main-menu
+  .menu__mobile
+    .menu__mobile__spacer
+    .menu__mobile__content(draggable='true')
+      .menu__mobile__close 
+        .menu__mobile__title Menu
+        a(href='#'): include ../icons/close.html
+      ul.menu__mobile__ul
+        li.menu__mobile__item: a(href='/') Home
+        li.menu__mobile__item: a(href='/publish') Launch
+        li.menu__mobile__item: a(href='/contact') Contact
+        li.menu__mobile__item: a(href='/login') Login
+
+  div.container
+    .twelve.columns
+      nav.main-nav 
+        a.menu__item.menu__logo-container(href='/')
+          .menu__logo__image
+          span.menu__logo__name--left Small
+          span.menu__logo__name--right  Teaser
+
+        

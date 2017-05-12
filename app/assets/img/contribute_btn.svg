@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="219 249 21 21">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-contribute_btn);
+      }
+
+      .cls-2 {
+        fill: #616165;
+      }
+
+      .cls-3 {
+        fill: #fefefe;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-contribute_btn">
+      <rect x="219" y="249" width="21" height="21"/>
+    </clipPath>
+  </defs>
+  <g id="contribute_btn" class="cls-1">
+    <rect class="cls-4" x="219" y="249" width="21" height="21"/>
+    <g id="group-15" transform="translate(-89 -837)">
+      <circle id="ellipse-3" class="cls-2" cx="10.236" cy="10.236" r="10.236" transform="translate(308 1086)"/>
+      <g id="group-19" transform="translate(323.591 1089.615) rotate(90)">
+        <g id="write" transform="translate(0 11.643) rotate(-90)">
+          <path id="path" class="cls-3" d="M7.763,0h-6.3V1.444H1.092A1.093,1.093,0,0,0,0,2.535v6.25l1.835,3.607L3.628,8.783V2.535A1.093,1.093,0,0,0,2.536,1.444H2.195V.728H7.277V4.366h3.639v7.277H2.547v.728h9.1V3.863L7.763,0ZM2.116,10.189H1.531L.728,8.61V4.355h.728V8.741h.728V4.355H2.9V8.613ZM2.9,2.535V3.627H.728V2.535a.365.365,0,0,1,.364-.364H2.535A.364.364,0,0,1,2.9,2.535ZM8,1.268l2.382,2.371H8Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
