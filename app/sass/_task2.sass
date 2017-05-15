@@ -1,0 +1,66 @@
+.container-box-error
+    height: 100%
+    width: 100%
+    @extend %flex                       //center the box
+    justify-content: center
+    align-items: center
+    -webkit-flex-flow: row
+    .container-error-message
+        width: $blh * 15
+        height: $blh * 15
+        //background-color: blue
+        @extend %flex                   //center the content inside the box
+        justify-content: center
+        align-items: center
+        -webkit-flex-flow: column
+        &__icon-container
+            margin-bottom: $blh
+            @extend %circle
+            width: $blh * 3
+            height: $blh * 3
+            background-color: $highlight-strong
+            @extend %flex               //center the x inside the div
+            justify-content: center
+            align-items: center
+            -webkit-flex-flow: row
+            position: relative
+            @extend %rotate45
+            &__inner
+                @extend %svg-icon-large
+                position: absolute
+                bottom: 20px
+                right: 30px
+        &__title
+            margin-bottom: $blh
+            font-family: $title-font
+            font-weight: $bold
+            font-size: $bfs * 1.5
+        &__subtitle
+            font-family: $text-font
+            font-size: $bfs * .8
+
+
+
+.svg__plus
+    fill: $background
+
+%flex
+    display: -webkit-box
+    display: -moz-box
+    display: -ms-flexbox
+    display: -webkit-flex
+    display: flex
+
+%circle
+    -moz-border-radius: 50px
+    -webkit-border-radius: 50px
+    border-radius: 50px
+%svg-icon-large
+    -ms-transform: scale(4)
+    -webkit-transform: scale(4)
+    transform: scale(4)
+
+%rotate45
+    -ms-transform: rotate(45deg)
+    -webkit-transform: rotate(45deg)
+    transform: rotate(45deg)

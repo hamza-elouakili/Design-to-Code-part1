@@ -1,0 +1,269 @@
+.container
+    display: none
+    //@extend %flex
+    -webkit-flex-flow: column
+    flex-wrap: wrap
+    .row1
+        order: 3
+        height: 50px
+        background-color: lightgreen
+    .row2
+        order: 4
+        @extend %flex
+        -webkit-flex-flow: row
+        height: 50px
+        &__item1
+            flex: 1
+            background-color: red
+        &__item2
+            flex: 1
+            background-color: orange
+    .row3
+        order: 1
+        height: 50px
+        background-color: lime
+    .row4
+        order: 2
+        @extend %flex
+        -webkit-flex-flow: row
+        height: 50px
+        &__item1
+            flex: 1
+            background-color: blue
+        &__item2
+            flex: 3
+            background-color: darkblue
+        &__item3
+            flex: 1
+            background-color: darkgreen
+
+/*Column Drop Pattern -- mobile first as default*/
+.container__column-drop
+    display: none
+    //@extend %flex
+    -webkit-flex-flow: row
+    flex-wrap: wrap
+    &__item1
+        width: 100%
+        height: 100px
+        background-color: black
+    &__item2
+        width: 100%
+        height: 100px
+        background-color: yellow
+    &__item3
+        width: 100%
+        height: 100px
+        background-color: orange
+/*Mostly fluid Pattern -- mobile first as default*/
+.container__mostly-fluid
+    display: none
+    //@extend %flex
+    -webkit-flex-flow: row
+    flex-wrap: wrap
+    &__item1
+        width: 100%
+        height: 100px
+        background-color: $midnightblue
+    &__item2
+        width: 100%
+        height: 100px
+        background-color: $lightseagreen
+    &__item3
+        width: 100%
+        height: 100px
+        background-color: $forestgreen
+    &__item4
+        width: 100%
+        height: 100px
+        background-color: $crimson
+    &__item5
+        width: 100%
+        height: 100px
+        background-color: $darkorange
+
+
+/*Mostly fluid Pattern-2 -- mobile first as default*/
+.container__mostly-fluid-2
+    display: none
+    //@extend %flex
+    -webkit-flex-flow: row
+    flex-wrap: wrap
+    &__item1
+        width: 100%
+        height: 100px
+        background-color: $midnightblue
+    &__item2
+        width: 50%
+        height: 100px
+        background-color: $lightseagreen
+    &__item3
+        width: 50%
+        height: 100px
+        background-color: $forestgreen
+    &__item4
+        width: 100%
+        height: 100px
+        background-color: $crimson
+    &__item5
+        width: 100%
+        height: 100px
+        background-color: $darkorange
+.container__layout-shifter
+    display: none
+    width: 100%
+    //@extend %flex
+    -webkit-flex-flow: row
+    flex-wrap: wrap
+    &__item1
+        width: 100%
+        height: 100px
+        background-color: $midnightblue
+    &__inner
+        width: 100%
+        @extend %flex
+        -webkit-flex-flow: row
+        flex-wrap: wrap
+        &__item2
+            width: 100%
+            height: 100px
+            background-color: $lightseagreen
+        &__item3
+            width: 100%
+            height: 100px
+            background-color: $forestgreen
+    &__item4
+        width: 100%
+        height: 100px
+        background-color: $crimson
+
+/*off canvas pattern -- mobile first*/
+// html, body, main
+//     width: 100%
+//     height: 100%
+
+// nav
+//     background-color: $midnightblue
+//     width: 300px
+//     height: 100%
+//     position: absolute
+//     transform: translate(-300px, 0)
+//     transition: transform 0.3s ease
+// main
+//     background-color: $lightseagreen
+
+@media screen and (min-width: $breakpoint-tablet)
+
+    /*Column Drop Pattern -- mobile first as default*/
+    .container__column-drop
+        &__item1
+            width: 25%
+            height: 100px
+            background-color: black
+        &__item2
+            width: 75%
+            height: 100px
+            background-color: yellow
+        &__item3
+            width: 100%
+            height: 100px
+            background-color: orange
+    /*Mostly fluid Pattern -- mobile first as default*/
+    .container__mostly-fluid
+        &__item2
+            width: 50%
+        &__item3
+            width: 50%
+    /*Mostly fluid Pattern-2 -- mobile first as default*/
+    .container__mostly-fluid-2
+        &__item4
+            width: 25%
+        &__item5
+            width: 75%
+    /*Layout shifter Pattern -- mobile first as default*/
+    .container__layout-shifter
+        &__item1
+            width: 50%
+            height: 200px       //in order for the inner div, to fit next to it in size, because item2 and item3 are both 100px in size, 200px in total
+        &__inner
+            width: 50%
+    /*off canvas pattern -- mobile first*/
+    //toggle comment on body, so it doesn't interfere with the task files
+    // body
+    //     display: -webkit-box
+    //     display: -moz-box
+    //     display: -ms-flexbox
+    //     display: -webkit-flex
+    //     display: flex
+    //     -webkit-flex-flow: row nowrap
+    // main
+    //     width: auto
+    //     flex-grow: 1
+    // nav
+    //     position: relative
+    //     transform: translate(0,0)
+
+
+@media screen and (min-width: $breakpoint-desktop)
+
+    /*Column Drop Pattern -- mobile first as default*/
+    .container__column-drop
+        &__item1
+            width: 25%
+            height: 100px
+            background-color: black
+        &__item2
+            width: 50%
+            height: 100px
+            background-color: yellow
+        &__item3
+            width: 25%
+            height: 100px
+            background-color: orange
+    /*Mostly fluid Pattern -- mobile first as default*/
+    .container__mostly-fluid
+        &__item1
+            width: 50%
+        &__item2
+            width: 50%
+        &__item3
+            width: 33%
+        &__item4
+            width: 34%
+        &__item5
+            width: 33%
+    /*Mostly fluid Pattern-2 -- mobile first as default*/
+    .container__mostly-fluid-2
+       width: 1024px
+       margin-left: auto
+       margin-right: auto
+    /*Layout shifter Pattern -- mobile first as default*/
+    .container__layout-shifter
+        &__item1
+            order: 1            //Default is 0, so 1 appears last
+            width: 25%
+            height: 200px       //in order for the inner div, to fit next to it in size, because item2 and item3 are both 100px in size, 200px in total
+        &__item4
+            order: -1           //Default is 0, so -1, appears first
+            width: 25%
+            height: 200px
+
+
+@media screen and (min-width: $breakpoint-desktop-xl)
+    /*Mostly fluid Pattern -- mobile first as default*/
+    .container__mostly-fluid
+        //you make the container with a fixed width of 1200px and the you center the container
+        //by adding margin to the left and right, in other words, you center the container in the middle
+        //and keep adding margins to the left and right, whilst keeping the container in the middle
+        width: 1200px
+        margin-right: auto
+        margin-left: auto
+
+
+
+%flex
+    display: -webkit-box
+    display: -moz-box
+    display: -ms-flexbox
+    display: -webkit-flex
+    display: flex

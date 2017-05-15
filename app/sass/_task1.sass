@@ -185,6 +185,33 @@ html
                     &__up
                         display: none
                         @extend %svg-icon-acc
+        .footer__aside
+            margin-left: $blh
+            margin-top: $blh * 32.5
+            margin-bottom: $blh
+            @extend %flex
+            justify-content: flex-start
+            align-items: center
+            -webkit-flex-flow: row
+            &__item__start-icon
+                @extend %flex
+                justify-content: center
+                align-items: center
+                -webkit-flex-flow: row
+                border: 1px black solid
+                @extend %circle
+                margin-right: 5px
+            &__item__button
+                font-size: $bfs * .7
+                font-family: $text-font
+                color: $icon-menu
+                button
+                    border: none
+                    outline: none
+                    background: none
+
+
+
     &__section__middle
         flex: 3
         height: auto
@@ -270,7 +297,6 @@ html
                         padding-right: 0
         .section__layer-four
             &__info
-
                 font-family: $text-font
                 margin-top: $blh * .5
                 padding-left: $blh * .5
@@ -288,27 +314,30 @@ html
                         text-decoration: none
                         padding-right: $blh
         .section__layer-five
+            cursor: pointer
+            @extend %flex
+            -webkit-flex-flow: column
             &__article-posts
-                background-color: blue
                 @extend %flex
                 -webkit-flex-flow: row
-                margin-top: $blh * .5
+                flex-wrap: wrap
+                margin-top: $blh
+                justify-content: space-between
                 &__post1
                     flex: 1
                     padding-left: $blh * .3
-                    background-color: green
                     @extend %flex
                     -webkit-flex-flow: column
                     font-family: $text-font
                     .layer1
+                        width: 70%
                         justify-content: flex-start
                         @extend %flex
                         -webkit-flex-flow: row
-                        background-color: yellow
-                        padding-left: $blh * .3
                         padding-bottom: $blh * .3
                         font-weight: $bold
                     .layer2
+                        width: 70%
                         justify-content: flex-start
                         @extend %flex
                         -webkit-flex-flow: row
@@ -325,7 +354,8 @@ html
                             cursor: pointer
                         span.date
                             margin-right: 5px
-                            font-weight: $light
+                            font-weight: $bold
+                            color: $dateArticle
                         span.link
                             font-weight: $bold
                     .layer3
@@ -338,8 +368,9 @@ html
                         font-size: $bfs * .8
                         height: $blh * 2
                         margin-bottom: $blh
+                        width: 70%
                     .layer5
-                        background-color: red
+                        width: 65%
                         //@extend %svg-icon-search
                         font-size: $bfs * .8
                         @extend %flex
@@ -349,7 +380,6 @@ html
                             @extend %flex
                             @extend %svg-icon-search
                             -webkit-flex-flow: row
-                            background-color: yellow
                             align-items: center
                             span
                                 padding-left: 5px
@@ -358,19 +388,18 @@ html
                 &__post2
                     flex: 1
                     padding-left: $blh * .3
-                    background-color: green
                     @extend %flex
                     -webkit-flex-flow: column
                     font-family: $text-font
                     .layer1
+                        width: 80%
                         justify-content: flex-start
                         @extend %flex
                         -webkit-flex-flow: row
-                        background-color: yellow
-                        padding-left: $blh * .3
                         padding-bottom: $blh * .3
                         font-weight: $bold
                     .layer2
+                        width: 80%
                         justify-content: flex-start
                         @extend %flex
                         -webkit-flex-flow: row
@@ -398,19 +427,20 @@ html
                             position: relative
                             img
                                 height: $blh * 5
-                                width: 100%
+                                width: 80%
                             .text
                                 text-align: left
                                 padding-left: $blh * .5
                                 padding-bottom: $blh * .5
                                 position: absolute
                                 bottom: -10px
+                                width: 70%
                                 color: $background
                         font-size: $bfs * .8
                     .layer4
                         margin-bottom: $blh * .9
                     .layer5
-                        background-color: red
+                        width: 81.5%
                         //@extend %svg-icon-search
                         font-size: $bfs * .8
                         @extend %flex
@@ -420,18 +450,195 @@ html
                             @extend %flex
                             @extend %svg-icon-search
                             -webkit-flex-flow: row
-                            background-color: yellow
                             align-items: center
                             span
                                 padding-left: 5px
                             &:last-child
                                 @extend %rotate90
                 &__write
-
-
-
-
-
+        .section__layer-six
+                margin-top: $blh
+                @extend %flex
+                -webkit-flex-flow: row
+                cursor: pointer
+                &__edit
+                    padding: $blh * 2
+                    @extend %flex
+                    -webkit-flex-flow: column
+                    flex-basis: 25%
+                    justify-content: center
+                    align-items: center
+                    color: $icon-menu
+                    .icon
+                        @extend %svg-icon-large
+        .section__layer-seven
+            @extend %flex
+            -webkit-flex-flow: column
+            &__article-posts
+                @extend %flex
+                -webkit-flex-flow: row
+                flex-wrap: wrap
+                margin-top: $blh
+                justify-content: space-between
+                &__post1
+                    flex: 1
+                    padding-left: $blh * .3
+                    @extend %flex
+                    -webkit-flex-flow: column
+                    font-family: $text-font
+                    .layer1
+                        width: 70%
+                        justify-content: flex-start
+                        @extend %flex
+                        -webkit-flex-flow: row
+                        padding-bottom: $blh * .3
+                        font-weight: $bold
+                    .layer2
+                        width: 70%
+                        justify-content: flex-start
+                        @extend %flex
+                        -webkit-flex-flow: row
+                        align-items: center
+                        font-size: $bfs * .7
+                        margin-bottom: $blh * .5
+                        button
+                            text-align: center
+                            margin-right: 5px
+                            background-color: $publishButton
+                            color: white
+                            border: none
+                            @extend %corner
+                            cursor: pointer
+                        span.date
+                            margin-right: 5px
+                            font-weight: $bold
+                            color: $dateArticle
+                        span.link
+                            font-weight: $bold
+                    .layer3
+                        justify-content: flex-start
+                        @extend %flex
+                        -webkit-flex-flow: row
+                        &__left
+                            img
+                                height: $blh * 3
+                        &__right
+                            margin-left: $blh * .5
+                            .layer4
+                                font-size: $bfs * .8
+                                height: $blh * 2
+                                width: 70%
+                            .layer5
+                                width: 70%
+                                //@extend %svg-icon-search
+                                font-size: $bfs * .8
+                                @extend %flex
+                                -webkit-flex-flow: row
+                                justify-content: space-between
+                                .item
+                                    @extend %flex
+                                    @extend %svg-icon-search
+                                    -webkit-flex-flow: row
+                                    align-items: center
+                                    span
+                                        padding-left: 5px
+                                    &:last-child
+                                        @extend %rotate90
+        .section__layer-eight
+                margin-top: $blh
+                @extend %flex
+                justify-content: center
+                -webkit-flex-flow: row
+                &__edit
+                    padding: $blh * 2
+                    @extend %flex
+                    -webkit-flex-flow: row
+                    flex-basis: 25%
+                    justify-content: center
+                    align-items: center
+                    color: $icon-menu
+                    span
+                        margin-left: $blh * .2
+        .section__layer-nine
+            @extend %flex
+            -webkit-flex-flow: column
+            &__article-posts
+                @extend %flex
+                -webkit-flex-flow: row
+                flex-wrap: wrap
+                margin-top: $blh
+                justify-content: space-between
+                &__post1
+                    flex: 1
+                    padding-left: $blh * .3
+                    @extend %flex
+                    -webkit-flex-flow: column
+                    font-family: $text-font
+                    .layer1
+                        width: 70%
+                        justify-content: flex-start
+                        @extend %flex
+                        -webkit-flex-flow: row
+                        padding-bottom: $blh * .3
+                        font-weight: $bold
+                    .layer2
+                        justify-content: flex-start
+                        @extend %flex
+                        -webkit-flex-flow: row
+                        align-items: center
+                        &__left
+                            width: 70%
+                            justify-content: flex-start
+                            @extend %flex
+                            -webkit-flex-flow: row
+                            align-items: center
+                            font-size: $bfs * .7
+                            button
+                                text-align: center
+                                margin-right: 5px
+                                background-color: $publishButton
+                                color: white
+                                border: none
+                                @extend %corner
+                                cursor: pointer
+                            span.date
+                                margin-right: 5px
+                                font-weight: $bold
+                                color: $dateArticle
+                            span.link
+                                font-weight: $bold
+                        &__right
+                            width: 70%
+                            //@extend %svg-icon-search
+                            font-size: $bfs * .8
+                            @extend %flex
+                            -webkit-flex-flow: row
+                            justify-content: space-between
+                            .item
+                                @extend %flex
+                                @extend %svg-icon-search
+                                -webkit-flex-flow: row
+                                align-items: center
+                                span
+                                    padding-left: 5px
+                                &:last-child
+                                    @extend %rotate90
+        .section__layer-ten
+            margin-top: $blh
+            @extend %flex
+            justify-content: center
+            -webkit-flex-flow: row
+            &__edit
+                padding: $blh * 2
+                @extend %flex
+                -webkit-flex-flow: row
+                flex-basis: 25%
+                justify-content: center
+                align-items: center
+                color: $icon-menu
+                span
+                    font-size: $bfs * .8
+                    margin-left: $blh * .2
 
 
 
@@ -494,8 +701,6 @@ html
 
 
 
-
-
 %svg-icon-notification
     -ms-transform: scale(.9)
     -webkit-transform: scale(.9)
@@ -509,6 +714,11 @@ html
     -ms-transform: scale(.5)
     -webkit-transform: scale(.5)
     transform: scale(.5)
+
+%svg-icon-large
+    -ms-transform: scale(2.5)
+    -webkit-transform: scale(2.5)
+    transform: scale(2.5)
 %circle
     -moz-border-radius: 50px
     -webkit-border-radius: 50px
@@ -551,7 +761,7 @@ html
 %rotate90
     -ms-transform: rotate(90deg)
     -webkit-transform: rotate(90deg)
-    transform: rotate(90deg);
+    transform: rotate(90deg)
 
 
 

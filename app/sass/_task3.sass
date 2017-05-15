@@ -1,0 +1,123 @@
+.container-box-congratulations
+    width: 100%
+    height: 100%
+    @extend %flex               //center the congratulations message horizontally on the screen
+    justify-content: center
+    //align-items: center
+    -webkit-flex-flow: row
+    .container-congratulations-message
+        width: $blh * 19
+        height: $blh * 25
+        //background-color: yellow
+        @extend %flex               //center the content vertically on the screen
+        justify-content: flex-start
+        align-items: center
+        -webkit-flex-flow: column
+        &__icon-container
+            margin-top: $blh * 2
+            height: $blh * 3
+            width: $blh * 3
+            margin-bottom: $blh * 2
+            @extend %circle
+            background-color: $notification
+            @extend %flex               //center the icon vertically and horizontally in the div
+            justify-content: center
+            align-items: center
+            -webkit-flex-flow: row
+            position: relative
+            &__inner
+                position: absolute
+                bottom: 18px
+                right: 33px
+                @extend %svg-icon-large
+        &__title-container
+            margin-bottom: $blh
+            @extend %flex
+            justify-content: center
+            align-items: center
+            -webkit-flex-flow: row
+            span
+                margin-left: $blh * .3
+                font-family: $title-font
+                font-weight: $bold
+            &__menu
+                @extend %flex
+                justify-content: center
+                align-items: center
+                -webkit-flex-flow: row
+                -ms-transform: scale(.8)
+                -webkit-transform: scale(.8)
+                transform: scale(.8)
+                &__icon
+                    @extend %svg-icon-small
+        &__text
+            text-align: center
+            font-family: $text-font
+            font-size: $bfs * .7
+            margin-bottom: $blh
+            p
+                //padding-bottom: 0px
+                margin-top: 0
+                margin-bottom: $blh * .2
+        &__info
+            width: $blh * 13
+            height: $blh * 13
+            background-color: $background-congratulations-menu
+            @extend %flex
+            justify-content: center
+            align-items: center
+            -webkit-flex-flow: column
+            font-family: $text-font
+            .title
+                font-family: $title-font
+                font-weight: $bold
+                font-size: $bfs * 1.5
+            .info
+                margin-bottom: $blh
+                color: $info-text
+                font-size: $bfs * .7
+                font-style: italic
+            .options
+                margin-bottom: $blh
+                font-size: $bfs * .9
+
+
+
+
+
+
+
+
+
+
+
+.svg__check
+    fill: $background
+
+%flex
+    display: -webkit-box
+    display: -moz-box
+    display: -ms-flexbox
+    display: -webkit-flex
+    display: flex
+
+%circle
+    -moz-border-radius: 50px
+    -webkit-border-radius: 50px
+    border-radius: 50px
+%svg-icon-large
+    -ms-transform: scale(3.5)
+    -webkit-transform: scale(3.5)
+    transform: scale(3.5)
+
+%svg-icon-small
+    -ms-transform: scale(.5)
+    -webkit-transform: scale(.5)
+    transform: scale(.5)
+
+%rotate45
+    -ms-transform: rotate(45deg)
+    -webkit-transform: rotate(45deg)
+    transform: rotate(45deg)
+
+

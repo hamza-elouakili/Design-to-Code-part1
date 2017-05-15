@@ -1,0 +1,34 @@
+extends ./components/baseMockup
+
+block title
+    title Congratulations Page -- task3
+block overlay
+block content
+     .container-box-congratulations
+        .container-congratulations-message
+            .container-congratulations-message__icon-container
+                .container-congratulations-message__icon-container__inner
+                    include ./components/icons/check.html
+            .container-congratulations-message__title-container
+                span Congratulations! We wish you a merry viewsmas!
+                .container-congratulations-message__title-container__menu
+                    span Help
+                    .container-congratulations-message__title-container__menu__icon
+                        include ./components/icons/angle-down.html
+            .container-congratulations-message__text
+                p.
+                    Your article will be published on SkyDiveMag on wednesday 12 april 2017
+                    at 9pm.
+                p.
+                    Your article will be sent to SnowBoard Mag for review, we will notify you of their
+                    decision and publish date.
+            .container-congratulations-message__info
+                span.title Where to go from here?
+                span.info Well everything has been set in motion, you could
+                span.options Write another story
+                span.options Read this story on your SkyDiveMag
+                span.options Launch a new publication
+                span.options Go to your personal smallteaser feed
+
+
+

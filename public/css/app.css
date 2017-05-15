@@ -950,12 +950,12 @@ html {
   -webkit-transform: scale(0.5);
   transform: scale(0.5); }
 
-.content__container__section__middle .section__layer-six__edit .icon {
+.content__container__section__middle .section__layer-six__edit .icon, .container-box-error .container-error-message__icon-container__inner, .container-box-congratulations .container-congratulations-message__icon-container__inner {
   -ms-transform: scale(2.5);
   -webkit-transform: scale(2.5);
   transform: scale(2.5); }
 
-.header__notification-container__comment__counter-circle, .header__notification-container__bell__counter-circle, .header__login-container__picture, .content__container__aside .footer__aside__item__start-icon, .content__container__aside__menu .menu__items .menu__item__pic img, .content__container__aside__menu .menu__items .menu__item__icon {
+.header__notification-container__comment__counter-circle, .header__notification-container__bell__counter-circle, .header__login-container__picture, .content__container__aside .footer__aside__item__start-icon, .content__container__aside__menu .menu__items .menu__item__pic img, .content__container__aside__menu .menu__items .menu__item__icon, .container-box-error .container-error-message__icon-container, .container-box-congratulations .container-congratulations-message__icon-container {
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px; }
@@ -965,7 +965,7 @@ html {
   -webkit-border-radius: 3px;
   border-radius: 3px; }
 
-.header, .header .header__logo-container, .header .header__search-container, .header .header__action-container, .header__notification-container, .header__login-container, .content__container, .content__container__aside .menu__aside, .content__container__aside .menu__aside__item, .content__container__aside .menu__aside__item__button, .content__container__aside .footer__aside, .content__container__aside .footer__aside__item__start-icon, .content__container__section__middle .section__layer-one, .content__container__section__middle .section__layer-two, .content__container__section__middle .section__layer-two__filter, .content__container__section__middle .section__layer-two__filter2, .content__container__section__middle .section__layer-three, .content__container__section__middle .section__layer-three__sort, .content__container__section__middle .section__layer-three__view, .content__container__section__middle .section__layer-three__view__items, .content__container__section__middle .section__layer-four__info__choice, .content__container__section__middle .section__layer-five, .content__container__section__middle .section__layer-five__article-posts, .content__container__section__middle .section__layer-five__article-posts__post1, .content__container__section__middle .section__layer-five__article-posts__post1 .layer1, .content__container__section__middle .section__layer-five__article-posts__post1 .layer2, .content__container__section__middle .section__layer-five__article-posts__post1 .layer3, .content__container__section__middle .section__layer-five__article-posts__post1 .layer5, .content__container__section__middle .section__layer-five__article-posts__post1 .layer5 .item, .content__container__section__middle .section__layer-five__article-posts__post2, .content__container__section__middle .section__layer-five__article-posts__post2 .layer1, .content__container__section__middle .section__layer-five__article-posts__post2 .layer2, .content__container__section__middle .section__layer-five__article-posts__post2 .layer3, .content__container__section__middle .section__layer-five__article-posts__post2 .layer5, .content__container__section__middle .section__layer-five__article-posts__post2 .layer5 .item, .content__container__section__middle .section__layer-six, .content__container__section__middle .section__layer-six__edit, .content__container__section__middle .section__layer-seven, .content__container__section__middle .section__layer-seven__article-posts, .content__container__section__middle .section__layer-seven__article-posts__post1, .content__container__section__middle .section__layer-seven__article-posts__post1 .layer1, .content__container__section__middle .section__layer-seven__article-posts__post1 .layer2, .content__container__section__middle .section__layer-seven__article-posts__post1 .layer3, .content__container__section__middle .section__layer-seven__article-posts__post1 .layer3__right .layer5, .content__container__section__middle .section__layer-seven__article-posts__post1 .layer3__right .layer5 .item, .content__container__section__middle .section__layer-eight, .content__container__section__middle .section__layer-eight__edit, .content__container__section__middle .section__layer-nine, .content__container__section__middle .section__layer-nine__article-posts, .content__container__section__middle .section__layer-nine__article-posts__post1, .content__container__section__middle .section__layer-nine__article-posts__post1 .layer1, .content__container__section__middle .section__layer-nine__article-posts__post1 .layer2, .content__container__section__middle .section__layer-nine__article-posts__post1 .layer2__left, .content__container__section__middle .section__layer-nine__article-posts__post1 .layer2__right, .content__container__section__middle .section__layer-nine__article-posts__post1 .layer2__right .item, .content__container__section__middle .section__layer-ten, .content__container__section__middle .section__layer-ten__edit, .content__container__aside__menu .menu__items .menu__item, .content__container__aside__menu .menu__items .menu__item__icon {
+.header, .header .header__logo-container, .header .header__search-container, .header .header__action-container, .header__notification-container, .header__login-container, .content__container, .content__container__aside .menu__aside, .content__container__aside .menu__aside__item, .content__container__aside .menu__aside__item__button, .content__container__aside .footer__aside, .content__container__aside .footer__aside__item__start-icon, .content__container__section__middle .section__layer-one, .content__container__section__middle .section__layer-two, .content__container__section__middle .section__layer-two__filter, .content__container__section__middle .section__layer-two__filter2, .content__container__section__middle .section__layer-three, .content__container__section__middle .section__layer-three__sort, .content__container__section__middle .section__layer-three__view, .content__container__section__middle .section__layer-three__view__items, .content__container__section__middle .section__layer-four__info__choice, .content__container__section__middle .section__layer-five, .content__container__section__middle .section__layer-five__article-posts, .content__container__section__middle .section__layer-five__article-posts__post1, .content__container__section__middle .section__layer-five__article-posts__post1 .layer1, .content__container__section__middle .section__layer-five__article-posts__post1 .layer2, .content__container__section__middle .section__layer-five__article-posts__post1 .layer3, .content__container__section__middle .section__layer-five__article-posts__post1 .layer5, .content__container__section__middle .section__layer-five__article-posts__post1 .layer5 .item, .content__container__section__middle .section__layer-five__article-posts__post2, .content__container__section__middle .section__layer-five__article-posts__post2 .layer1, .content__container__section__middle .section__layer-five__article-posts__post2 .layer2, .content__container__section__middle .section__layer-five__article-posts__post2 .layer3, .content__container__section__middle .section__layer-five__article-posts__post2 .layer5, .content__container__section__middle .section__layer-five__article-posts__post2 .layer5 .item, .content__container__section__middle .section__layer-six, .content__container__section__middle .section__layer-six__edit, .content__container__section__middle .section__layer-seven, .content__container__section__middle .section__layer-seven__article-posts, .content__container__section__middle .section__layer-seven__article-posts__post1, .content__container__section__middle .section__layer-seven__article-posts__post1 .layer1, .content__container__section__middle .section__layer-seven__article-posts__post1 .layer2, .content__container__section__middle .section__layer-seven__article-posts__post1 .layer3, .content__container__section__middle .section__layer-seven__article-posts__post1 .layer3__right .layer5, .content__container__section__middle .section__layer-seven__article-posts__post1 .layer3__right .layer5 .item, .content__container__section__middle .section__layer-eight, .content__container__section__middle .section__layer-eight__edit, .content__container__section__middle .section__layer-nine, .content__container__section__middle .section__layer-nine__article-posts, .content__container__section__middle .section__layer-nine__article-posts__post1, .content__container__section__middle .section__layer-nine__article-posts__post1 .layer1, .content__container__section__middle .section__layer-nine__article-posts__post1 .layer2, .content__container__section__middle .section__layer-nine__article-posts__post1 .layer2__left, .content__container__section__middle .section__layer-nine__article-posts__post1 .layer2__right, .content__container__section__middle .section__layer-nine__article-posts__post1 .layer2__right .item, .content__container__section__middle .section__layer-ten, .content__container__section__middle .section__layer-ten__edit, .content__container__aside__menu .menu__items .menu__item, .content__container__aside__menu .menu__items .menu__item__icon, .container-box-error, .container-box-error .container-error-message, .container-box-error .container-error-message__icon-container, .container-box-congratulations, .container-box-congratulations .container-congratulations-message, .container-box-congratulations .container-congratulations-message__icon-container, .container-box-congratulations .container-congratulations-message__title-container, .container-box-congratulations .container-congratulations-message__title-container__menu, .container-box-congratulations .container-congratulations-message__info, .container .row2, .container .row4, .container__layout-shifter__inner {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -995,6 +995,380 @@ html {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg); }
 
-.container .row1 {
-  height: 10px;
-  background-color: green; }
+.container-box-error {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  -webkit-flex-flow: row; }
+  .container-box-error .container-error-message {
+    width: 24.375rem;
+    height: 24.375rem;
+    justify-content: center;
+    align-items: center;
+    -webkit-flex-flow: column; }
+    .container-box-error .container-error-message__icon-container {
+      margin-bottom: 1.625rem;
+      width: 4.875rem;
+      height: 4.875rem;
+      background-color: #BF3100;
+      justify-content: center;
+      align-items: center;
+      -webkit-flex-flow: row;
+      position: relative; }
+      .container-box-error .container-error-message__icon-container__inner {
+        position: absolute;
+        bottom: 20px;
+        right: 30px; }
+    .container-box-error .container-error-message__title {
+      margin-bottom: 1.625rem;
+      font-family: Roboto Condensed, Arial, sans-serif;
+      font-weight: 700;
+      font-size: 1.5rem; }
+    .container-box-error .container-error-message__subtitle {
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 0.8rem; }
+
+.svg__plus {
+  fill: #FEFEFE; }
+
+.header, .header .header__logo-container, .header .header__search-container, .header .header__action-container, .header__notification-container, .header__login-container, .content__container, .content__container__aside .menu__aside, .content__container__aside .menu__aside__item, .content__container__aside .menu__aside__item__button, .content__container__aside .footer__aside, .content__container__aside .footer__aside__item__start-icon, .content__container__section__middle .section__layer-one, .content__container__section__middle .section__layer-two, .content__container__section__middle .section__layer-two__filter, .content__container__section__middle .section__layer-two__filter2, .content__container__section__middle .section__layer-three, .content__container__section__middle .section__layer-three__sort, .content__container__section__middle .section__layer-three__view, .content__container__section__middle .section__layer-three__view__items, .content__container__section__middle .section__layer-four__info__choice, .content__container__section__middle .section__layer-five, .content__container__section__middle .section__layer-five__article-posts, .content__container__section__middle .section__layer-five__article-posts__post1, .content__container__section__middle .section__layer-five__article-posts__post1 .layer1, .content__container__section__middle .section__layer-five__article-posts__post1 .layer2, .content__container__section__middle .section__layer-five__article-posts__post1 .layer3, .content__container__section__middle .section__layer-five__article-posts__post1 .layer5, .content__container__section__middle .section__layer-five__article-posts__post1 .layer5 .item, .content__container__section__middle .section__layer-five__article-posts__post2, .content__container__section__middle .section__layer-five__article-posts__post2 .layer1, .content__container__section__middle .section__layer-five__article-posts__post2 .layer2, .content__container__section__middle .section__layer-five__article-posts__post2 .layer3, .content__container__section__middle .section__layer-five__article-posts__post2 .layer5, .content__container__section__middle .section__layer-five__article-posts__post2 .layer5 .item, .content__container__section__middle .section__layer-six, .content__container__section__middle .section__layer-six__edit, .content__container__section__middle .section__layer-seven, .content__container__section__middle .section__layer-seven__article-posts, .content__container__section__middle .section__layer-seven__article-posts__post1, .content__container__section__middle .section__layer-seven__article-posts__post1 .layer1, .content__container__section__middle .section__layer-seven__article-posts__post1 .layer2, .content__container__section__middle .section__layer-seven__article-posts__post1 .layer3, .content__container__section__middle .section__layer-seven__article-posts__post1 .layer3__right .layer5, .content__container__section__middle .section__layer-seven__article-posts__post1 .layer3__right .layer5 .item, .content__container__section__middle .section__layer-eight, .content__container__section__middle .section__layer-eight__edit, .content__container__section__middle .section__layer-nine, .content__container__section__middle .section__layer-nine__article-posts, .content__container__section__middle .section__layer-nine__article-posts__post1, .content__container__section__middle .section__layer-nine__article-posts__post1 .layer1, .content__container__section__middle .section__layer-nine__article-posts__post1 .layer2, .content__container__section__middle .section__layer-nine__article-posts__post1 .layer2__left, .content__container__section__middle .section__layer-nine__article-posts__post1 .layer2__right, .content__container__section__middle .section__layer-nine__article-posts__post1 .layer2__right .item, .content__container__section__middle .section__layer-ten, .content__container__section__middle .section__layer-ten__edit, .content__container__aside__menu .menu__items .menu__item, .content__container__aside__menu .menu__items .menu__item__icon, .container-box-error, .container-box-error .container-error-message, .container-box-error .container-error-message__icon-container, .container-box-congratulations, .container-box-congratulations .container-congratulations-message, .container-box-congratulations .container-congratulations-message__icon-container, .container-box-congratulations .container-congratulations-message__title-container, .container-box-congratulations .container-congratulations-message__title-container__menu, .container-box-congratulations .container-congratulations-message__info, .container .row2, .container .row4, .container__layout-shifter__inner {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+
+.header__notification-container__comment__counter-circle, .header__notification-container__bell__counter-circle, .header__login-container__picture, .content__container__aside .footer__aside__item__start-icon, .content__container__aside__menu .menu__items .menu__item__pic img, .content__container__aside__menu .menu__items .menu__item__icon, .container-box-error .container-error-message__icon-container, .container-box-congratulations .container-congratulations-message__icon-container {
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px; }
+
+.content__container__section__middle .section__layer-six__edit .icon, .container-box-error .container-error-message__icon-container__inner, .container-box-congratulations .container-congratulations-message__icon-container__inner {
+  -ms-transform: scale(4);
+  -webkit-transform: scale(4);
+  transform: scale(4); }
+
+.container-box-error .container-error-message__icon-container {
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+.container-box-congratulations {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  -webkit-flex-flow: row; }
+  .container-box-congratulations .container-congratulations-message {
+    width: 30.875rem;
+    height: 40.625rem;
+    justify-content: flex-start;
+    align-items: center;
+    -webkit-flex-flow: column; }
+    .container-box-congratulations .container-congratulations-message__icon-container {
+      margin-top: 3.25rem;
+      height: 4.875rem;
+      width: 4.875rem;
+      margin-bottom: 3.25rem;
+      background-color: #5D9CEC;
+      justify-content: center;
+      align-items: center;
+      -webkit-flex-flow: row;
+      position: relative; }
+      .container-box-congratulations .container-congratulations-message__icon-container__inner {
+        position: absolute;
+        bottom: 18px;
+        right: 33px; }
+    .container-box-congratulations .container-congratulations-message__title-container {
+      margin-bottom: 1.625rem;
+      justify-content: center;
+      align-items: center;
+      -webkit-flex-flow: row; }
+      .container-box-congratulations .container-congratulations-message__title-container span {
+        margin-left: 0.4875rem;
+        font-family: Roboto Condensed, Arial, sans-serif;
+        font-weight: 700; }
+      .container-box-congratulations .container-congratulations-message__title-container__menu {
+        justify-content: center;
+        align-items: center;
+        -webkit-flex-flow: row;
+        -ms-transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8); }
+    .container-box-congratulations .container-congratulations-message__text {
+      text-align: center;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 0.7rem;
+      margin-bottom: 1.625rem; }
+      .container-box-congratulations .container-congratulations-message__text p {
+        margin-top: 0;
+        margin-bottom: 0.325rem; }
+    .container-box-congratulations .container-congratulations-message__info {
+      width: 21.125rem;
+      height: 21.125rem;
+      background-color: #F5F7FA;
+      justify-content: center;
+      align-items: center;
+      -webkit-flex-flow: column;
+      font-family: Roboto, Arial, sans-serif; }
+      .container-box-congratulations .container-congratulations-message__info .title {
+        font-family: Roboto Condensed, Arial, sans-serif;
+        font-weight: 700;
+        font-size: 1.5rem; }
+      .container-box-congratulations .container-congratulations-message__info .info {
+        margin-bottom: 1.625rem;
+        color: #AAB2BD;
+        font-size: 0.7rem;
+        font-style: italic; }
+      .container-box-congratulations .container-congratulations-message__info .options {
+        margin-bottom: 1.625rem;
+        font-size: 0.9rem; }
+
+.svg__check {
+  fill: #FEFEFE; }
+
+.header, .header .header__logo-container, .header .header__search-container, .header .header__action-container, .header__notification-container, .header__login-container, .content__container, .content__container__aside .menu__aside, .content__container__aside .menu__aside__item, .content__container__aside .menu__aside__item__button, .content__container__aside .footer__aside, .content__container__aside .footer__aside__item__start-icon, .content__container__section__middle .section__layer-one, .content__container__section__middle .section__layer-two, .content__container__section__middle .section__layer-two__filter, .content__container__section__middle .section__layer-two__filter2, .content__container__section__middle .section__layer-three, .content__container__section__middle .section__layer-three__sort, .content__container__section__middle .section__layer-three__view, .content__container__section__middle .section__layer-three__view__items, .content__container__section__middle .section__layer-four__info__choice, .content__container__section__middle .section__layer-five, .content__container__section__middle .section__layer-five__article-posts, .content__container__section__middle .section__layer-five__article-posts__post1, .content__container__section__middle .section__layer-five__article-posts__post1 .layer1, .content__container__section__middle .section__layer-five__article-posts__post1 .layer2, .content__container__section__middle .section__layer-five__article-posts__post1 .layer3, .content__container__section__middle .section__layer-five__article-posts__post1 .layer5, .content__container__section__middle .section__layer-five__article-posts__post1 .layer5 .item, .content__container__section__middle .section__layer-five__article-posts__post2, .content__container__section__middle .section__layer-five__article-posts__post2 .layer1, .content__container__section__middle .section__layer-five__article-posts__post2 .layer2, .content__container__section__middle .section__layer-five__article-posts__post2 .layer3, .content__container__section__middle .section__layer-five__article-posts__post2 .layer5, .content__container__section__middle .section__layer-five__article-posts__post2 .layer5 .item, .content__container__section__middle .section__layer-six, .content__container__section__middle .section__layer-six__edit, .content__container__section__middle .section__layer-seven, .content__container__section__middle .section__layer-seven__article-posts, .content__container__section__middle .section__layer-seven__article-posts__post1, .content__container__section__middle .section__layer-seven__article-posts__post1 .layer1, .content__container__section__middle .section__layer-seven__article-posts__post1 .layer2, .content__container__section__middle .section__layer-seven__article-posts__post1 .layer3, .content__container__section__middle .section__layer-seven__article-posts__post1 .layer3__right .layer5, .content__container__section__middle .section__layer-seven__article-posts__post1 .layer3__right .layer5 .item, .content__container__section__middle .section__layer-eight, .content__container__section__middle .section__layer-eight__edit, .content__container__section__middle .section__layer-nine, .content__container__section__middle .section__layer-nine__article-posts, .content__container__section__middle .section__layer-nine__article-posts__post1, .content__container__section__middle .section__layer-nine__article-posts__post1 .layer1, .content__container__section__middle .section__layer-nine__article-posts__post1 .layer2, .content__container__section__middle .section__layer-nine__article-posts__post1 .layer2__left, .content__container__section__middle .section__layer-nine__article-posts__post1 .layer2__right, .content__container__section__middle .section__layer-nine__article-posts__post1 .layer2__right .item, .content__container__section__middle .section__layer-ten, .content__container__section__middle .section__layer-ten__edit, .content__container__aside__menu .menu__items .menu__item, .content__container__aside__menu .menu__items .menu__item__icon, .container-box-error, .container-box-error .container-error-message, .container-box-error .container-error-message__icon-container, .container-box-congratulations, .container-box-congratulations .container-congratulations-message, .container-box-congratulations .container-congratulations-message__icon-container, .container-box-congratulations .container-congratulations-message__title-container, .container-box-congratulations .container-congratulations-message__title-container__menu, .container-box-congratulations .container-congratulations-message__info, .container .row2, .container .row4, .container__layout-shifter__inner {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+
+.header__notification-container__comment__counter-circle, .header__notification-container__bell__counter-circle, .header__login-container__picture, .content__container__aside .footer__aside__item__start-icon, .content__container__aside__menu .menu__items .menu__item__pic img, .content__container__aside__menu .menu__items .menu__item__icon, .container-box-error .container-error-message__icon-container, .container-box-congratulations .container-congratulations-message__icon-container {
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px; }
+
+.content__container__section__middle .section__layer-six__edit .icon, .container-box-error .container-error-message__icon-container__inner, .container-box-congratulations .container-congratulations-message__icon-container__inner {
+  -ms-transform: scale(3.5);
+  -webkit-transform: scale(3.5);
+  transform: scale(3.5); }
+
+.container-box-congratulations .container-congratulations-message__title-container__menu__icon {
+  -ms-transform: scale(0.5);
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5); }
+
+.container-box-error .container-error-message__icon-container {
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+.container {
+  display: none;
+  -webkit-flex-flow: column;
+  flex-wrap: wrap; }
+  .container .row1 {
+    order: 3;
+    height: 50px;
+    background-color: lightgreen; }
+  .container .row2 {
+    order: 4;
+    -webkit-flex-flow: row;
+    height: 50px; }
+    .container .row2__item1 {
+      flex: 1;
+      background-color: red; }
+    .container .row2__item2 {
+      flex: 1;
+      background-color: orange; }
+  .container .row3 {
+    order: 1;
+    height: 50px;
+    background-color: lime; }
+  .container .row4 {
+    order: 2;
+    -webkit-flex-flow: row;
+    height: 50px; }
+    .container .row4__item1 {
+      flex: 1;
+      background-color: blue; }
+    .container .row4__item2 {
+      flex: 3;
+      background-color: darkblue; }
+    .container .row4__item3 {
+      flex: 1;
+      background-color: darkgreen; }
+
+/*Column Drop Pattern -- mobile first as default*/
+.container__column-drop {
+  display: none;
+  -webkit-flex-flow: row;
+  flex-wrap: wrap; }
+  .container__column-drop__item1 {
+    width: 100%;
+    height: 100px;
+    background-color: black; }
+  .container__column-drop__item2 {
+    width: 100%;
+    height: 100px;
+    background-color: yellow; }
+  .container__column-drop__item3 {
+    width: 100%;
+    height: 100px;
+    background-color: orange; }
+
+/*Mostly fluid Pattern -- mobile first as default*/
+.container__mostly-fluid {
+  display: none;
+  -webkit-flex-flow: row;
+  flex-wrap: wrap; }
+  .container__mostly-fluid__item1 {
+    width: 100%;
+    height: 100px;
+    background-color: #1e336b; }
+  .container__mostly-fluid__item2 {
+    width: 100%;
+    height: 100px;
+    background-color: #119dd1; }
+  .container__mostly-fluid__item3 {
+    width: 100%;
+    height: 100px;
+    background-color: #0d8a33; }
+  .container__mostly-fluid__item4 {
+    width: 100%;
+    height: 100px;
+    background-color: #d7002c; }
+  .container__mostly-fluid__item5 {
+    width: 100%;
+    height: 100px;
+    background-color: #ed8517; }
+
+/*Mostly fluid Pattern-2 -- mobile first as default*/
+.container__mostly-fluid-2 {
+  display: none;
+  -webkit-flex-flow: row;
+  flex-wrap: wrap; }
+  .container__mostly-fluid-2__item1 {
+    width: 100%;
+    height: 100px;
+    background-color: #1e336b; }
+  .container__mostly-fluid-2__item2 {
+    width: 50%;
+    height: 100px;
+    background-color: #119dd1; }
+  .container__mostly-fluid-2__item3 {
+    width: 50%;
+    height: 100px;
+    background-color: #0d8a33; }
+  .container__mostly-fluid-2__item4 {
+    width: 100%;
+    height: 100px;
+    background-color: #d7002c; }
+  .container__mostly-fluid-2__item5 {
+    width: 100%;
+    height: 100px;
+    background-color: #ed8517; }
+
+.container__layout-shifter {
+  display: none;
+  width: 100%;
+  -webkit-flex-flow: row;
+  flex-wrap: wrap; }
+  .container__layout-shifter__item1 {
+    width: 100%;
+    height: 100px;
+    background-color: #1e336b; }
+  .container__layout-shifter__inner {
+    width: 100%;
+    -webkit-flex-flow: row;
+    flex-wrap: wrap; }
+    .container__layout-shifter__inner__item2 {
+      width: 100%;
+      height: 100px;
+      background-color: #119dd1; }
+    .container__layout-shifter__inner__item3 {
+      width: 100%;
+      height: 100px;
+      background-color: #0d8a33; }
+  .container__layout-shifter__item4 {
+    width: 100%;
+    height: 100px;
+    background-color: #d7002c; }
+
+/*off canvas pattern -- mobile first*/
+@media screen and (min-width: 768px) {
+  /*Column Drop Pattern -- mobile first as default*/
+  .container__column-drop__item1 {
+    width: 25%;
+    height: 100px;
+    background-color: black; }
+  .container__column-drop__item2 {
+    width: 75%;
+    height: 100px;
+    background-color: yellow; }
+  .container__column-drop__item3 {
+    width: 100%;
+    height: 100px;
+    background-color: orange; }
+  /*Mostly fluid Pattern -- mobile first as default*/
+  .container__mostly-fluid__item2 {
+    width: 50%; }
+  .container__mostly-fluid__item3 {
+    width: 50%; }
+  /*Mostly fluid Pattern-2 -- mobile first as default*/
+  .container__mostly-fluid-2__item4 {
+    width: 25%; }
+  .container__mostly-fluid-2__item5 {
+    width: 75%; }
+  /*Layout shifter Pattern -- mobile first as default*/
+  .container__layout-shifter__item1 {
+    width: 50%;
+    height: 200px; }
+  .container__layout-shifter__inner {
+    width: 50%; }
+  /*off canvas pattern -- mobile first*/ }
+
+@media screen and (min-width: 1024px) {
+  /*Column Drop Pattern -- mobile first as default*/
+  .container__column-drop__item1 {
+    width: 25%;
+    height: 100px;
+    background-color: black; }
+  .container__column-drop__item2 {
+    width: 50%;
+    height: 100px;
+    background-color: yellow; }
+  .container__column-drop__item3 {
+    width: 25%;
+    height: 100px;
+    background-color: orange; }
+  /*Mostly fluid Pattern -- mobile first as default*/
+  .container__mostly-fluid__item1 {
+    width: 50%; }
+  .container__mostly-fluid__item2 {
+    width: 50%; }
+  .container__mostly-fluid__item3 {
+    width: 33%; }
+  .container__mostly-fluid__item4 {
+    width: 34%; }
+  .container__mostly-fluid__item5 {
+    width: 33%; }
+  /*Mostly fluid Pattern-2 -- mobile first as default*/
+  .container__mostly-fluid-2 {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto; }
+  /*Layout shifter Pattern -- mobile first as default*/
+  .container__layout-shifter__item1 {
+    order: 1;
+    width: 25%;
+    height: 200px; }
+  .container__layout-shifter__item4 {
+    order: -1;
+    width: 25%;
+    height: 200px; } }
+
+@media screen and (min-width: 1200px) {
+  /*Mostly fluid Pattern -- mobile first as default*/
+  .container__mostly-fluid {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto; } }
+
+.header, .header .header__logo-container, .header .header__search-container, .header .header__action-container, .header__notification-container, .header__login-container, .content__container, .content__container__aside .menu__aside, .content__container__aside .menu__aside__item, .content__container__aside .menu__aside__item__button, .content__container__aside .footer__aside, .content__container__aside .footer__aside__item__start-icon, .content__container__section__middle .section__layer-one, .content__container__section__middle .section__layer-two, .content__container__section__middle .section__layer-two__filter, .content__container__section__middle .section__layer-two__filter2, .content__container__section__middle .section__layer-three, .content__container__section__middle .section__layer-three__sort, .content__container__section__middle .section__layer-three__view, .content__container__section__middle .section__layer-three__view__items, .content__container__section__middle .section__layer-four__info__choice, .content__container__section__middle .section__layer-five, .content__container__section__middle .section__layer-five__article-posts, .content__container__section__middle .section__layer-five__article-posts__post1, .content__container__section__middle .section__layer-five__article-posts__post1 .layer1, .content__container__section__middle .section__layer-five__article-posts__post1 .layer2, .content__container__section__middle .section__layer-five__article-posts__post1 .layer3, .content__container__section__middle .section__layer-five__article-posts__post1 .layer5, .content__container__section__middle .section__layer-five__article-posts__post1 .layer5 .item, .content__container__section__middle .section__layer-five__article-posts__post2, .content__container__section__middle .section__layer-five__article-posts__post2 .layer1, .content__container__section__middle .section__layer-five__article-posts__post2 .layer2, .content__container__section__middle .section__layer-five__article-posts__post2 .layer3, .content__container__section__middle .section__layer-five__article-posts__post2 .layer5, .content__container__section__middle .section__layer-five__article-posts__post2 .layer5 .item, .content__container__section__middle .section__layer-six, .content__container__section__middle .section__layer-six__edit, .content__container__section__middle .section__layer-seven, .content__container__section__middle .section__layer-seven__article-posts, .content__container__section__middle .section__layer-seven__article-posts__post1, .content__container__section__middle .section__layer-seven__article-posts__post1 .layer1, .content__container__section__middle .section__layer-seven__article-posts__post1 .layer2, .content__container__section__middle .section__layer-seven__article-posts__post1 .layer3, .content__container__section__middle .section__layer-seven__article-posts__post1 .layer3__right .layer5, .content__container__section__middle .section__layer-seven__article-posts__post1 .layer3__right .layer5 .item, .content__container__section__middle .section__layer-eight, .content__container__section__middle .section__layer-eight__edit, .content__container__section__middle .section__layer-nine, .content__container__section__middle .section__layer-nine__article-posts, .content__container__section__middle .section__layer-nine__article-posts__post1, .content__container__section__middle .section__layer-nine__article-posts__post1 .layer1, .content__container__section__middle .section__layer-nine__article-posts__post1 .layer2, .content__container__section__middle .section__layer-nine__article-posts__post1 .layer2__left, .content__container__section__middle .section__layer-nine__article-posts__post1 .layer2__right, .content__container__section__middle .section__layer-nine__article-posts__post1 .layer2__right .item, .content__container__section__middle .section__layer-ten, .content__container__section__middle .section__layer-ten__edit, .content__container__aside__menu .menu__items .menu__item, .content__container__aside__menu .menu__items .menu__item__icon, .container-box-error, .container-box-error .container-error-message, .container-box-error .container-error-message__icon-container, .container-box-congratulations, .container-box-congratulations .container-congratulations-message, .container-box-congratulations .container-congratulations-message__icon-container, .container-box-congratulations .container-congratulations-message__title-container, .container-box-congratulations .container-congratulations-message__title-container__menu, .container-box-congratulations .container-congratulations-message__info, .container .row2, .container .row4, .container__layout-shifter__inner {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
