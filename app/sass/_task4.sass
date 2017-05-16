@@ -1,0 +1,46 @@
+header
+    font-family: $text-font
+    margin-top: $blh
+    @extend %flex
+    justify-content: space-around
+    align-items: center
+    -webkit-flex-flow: row
+    span.outer-icon
+        @extend %svg-icon-small-header-outer
+    span.inner-icon
+        @extend %svg-icon-small-header-inner
+.center-content
+    margin-top: $blh * 2
+    @extend %flex
+    -webkit-flex-flow: row
+    justify-content: center
+    &__box
+        width: $blh * 25
+        height: $blh * 25
+        background: blue
+
+.bold-underline
+    font-weight: $bold
+    text-decoration: underline
+    text-decoration-color: $breadcrumb-underline
+
+.svg__check
+    fill: black
+
+
+%svg-icon-small-header-outer
+    -ms-transform: scale(.8)
+    -webkit-transform: scale(.8)
+    transform: scale(.8)
+
+%svg-icon-small-header-inner
+    -ms-transform: scale(.5)
+    -webkit-transform: scale(.5)
+    transform: scale(.5)
+
+%flex
+    display: -webkit-box
+    display: -moz-box
+    display: -ms-flexbox
+    display: -webkit-flex
+    display: flex
