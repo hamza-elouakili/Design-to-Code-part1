@@ -7,9 +7,54 @@ block content
     .center-content
         .center-content__box
             .center-content__box__title
-                span The following changes will be applied
-                span Help
-                span.center-content__box__title-icon: include ./components/icons/angle-down.html
+                .title
+                    span The following changes will be applied
+                .text
+                    span Help
+                .help-icon
+                     include ./components/icons/angle-down.html
+            .center-content__box__confirm-button-box
+                .center-content__box__confirm-button-box__content
+                    .confirm-button-icon
+                        include ./components/icons/check.html
+                    .confirm-button-text
+                        span confirm
+            .center-content__box__info-box
+                .center-content__box__info-box__item
+                    .center-content__box__info-box__item__up
+                        span.info-text  Your story will be published on the following publication.
+                    .center-content__box__info-box__item__low
+                        span.image: img(src='../assets/img/duckfie.jpg')
+                        .center-content__box__info-box__item__low__info
+                            span SkyDiveMag
+                            span wed 12 april 2017 at 9pm
+                .center-content__box__info-box__item
+                    .center-content__box__info-box__item__up
+                        span.info-text  Your story will be sent to the following publication for review
+                    .center-content__box__info-box__item__low
+                        span.image: img(src='../assets/img/duckfie.jpg')
+                        .center-content__box__info-box__item__low__info
+                            span Snowboard Mag
+                            span pending review
+            .center-content__box__complaint-message-box
+                .complaint-message
+                    p.
+                        If you don't agree with above mentioned actions, please navigate back to the corresponding
+                        section or click on the publication button above and change the settings. If you like what you
+                        see just hit confirm and we'll get the smallteaser engine going
+    .footer-content
+        .footer-content__box
+            .footer-content__box__item-back
+                .icon-back
+                    include ./components/icons/angle-left.html
+                span.text Back
+            .footer-content__box__item-confirm
+                .text Confirm
+                .icon-confirm
+                    include ./components/icons/angle-right.html
+
+
+
 
 
 
