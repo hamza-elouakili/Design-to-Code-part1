@@ -1,0 +1,42 @@
+extends ./components/baseMockup
+
+block title
+    title metadata Page - task 5
+block content
+    .header-metadata
+        .header-metadata__back
+            .header-metadata__back__icon
+                include ./components/icons/arrow-left.html
+            .header-metadata__back__text
+                span cancel and go back to editor
+        .header-metadata__info
+            span adding metadata
+        .header-metadata__right
+            .header-metadata__right__number.active
+                span 1
+                .arrow-up
+            .header-metadata__right__number
+                span 2
+            .header-metadata__right__number
+                span 3
+            .header-metadata__right__number
+                span ...
+            .header-metadata__right__number.icon-metadata
+                include ./components/icons/check.html
+    .content-metadata-box
+        .content-metadata-box__info-box
+            .content-metadata-box__info-box__content
+                span Alternatieve top nav. bijv als ruimte te klein is, of voor mobile
+        .content-metadata-box__menu-box
+            .content-metadata-box__menu-box__content-menu
+                .content-metadata-box__menu-box__content-menu__content
+    .content-metadata-box
+        .content-metadata-box__info-box
+            .content-metadata-box__info-box__content
+                span Alternatieve kleuren met vooruitzicht op gamification van de app
+        .content-metadata-box__menu-box
+            .content-metadata-box__menu-box__content-menu
+                .content-metadata-box__menu-box__content-menu__arrow-up-special
+                .content-metadata-box__menu-box__content-menu__content.special
+
+

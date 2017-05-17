@@ -1,0 +1,105 @@
+.header-metadata
+    //margin-bottom: $blh
+    font-size: $blh * .4
+    @extend %flex
+    justify-content: space-around
+    align-items: center
+    -webkit-flex-flow: row
+    &__back
+        width: 25%
+        background-color: yellow
+        @extend %flex
+        justify-content: center
+        align-items: center
+        -webkit-flex-flow: row
+        &__icon
+            position: relative
+            top: 1px
+            -ms-transform: scale(.7)
+            -webkit-transform: scale(.7)
+            transform: scale(.7)
+    &__info
+        @extend %flex
+        justify-content: center
+        align-items: center
+        -webkit-flex-flow: row
+        width: 50%
+        background-color: blue
+        color: $info-text
+        font-style: italic
+    &__right
+        margin: 0
+        width: 25%
+        height: $blh * 1.5
+        background-color: red
+        justify-content: center
+        @extend %flex
+        align-items: center
+        -webkit-flex-flow: row
+        &__number
+            font-size: $blh * .4
+            width: $blh * .8
+            height: $blh * .8
+            font-weight: $bold
+            margin-right: $blh * .2
+            span
+                position: relative
+                left: 8px
+                top: 5px
+        .active
+            background-color: black
+            color: $background
+            -moz-border-radius: 50%
+            -webkit-border-radius: 50%
+            border-radius: 50%
+            .arrow-up
+                margin-top: 10px
+                width: 0;
+                height: 0;
+                border-left: 10px solid transparent
+                border-right: 10px solid transparent
+                border-bottom: 10px solid black
+        .icon-metadata
+            position: relative
+            top: 1px
+            -ms-transform: scale(.8)
+            -webkit-transform: scale(.8)
+.content-metadata-box
+    @extend %flex
+    //align-items: center
+    justify-content: center
+    -webkit-flex-flow: row
+    margin-bottom: $blh
+    &__info-box
+        @extend %flex
+        align-items: center
+        justify-content: center
+        -webkit-flex-flow: row
+        width: 75%
+        background-color: green
+    &__menu-box
+        height: $blh * 5
+        width: 25%
+        background-color: brown
+        @extend %flex
+        //align-items: center
+        //justify-content: center
+        -webkit-flex-flow: row
+        &__content-menu
+            &__arrow-up-special
+                position: relative
+                left: 50px
+                width: 0;
+                height: 0;
+                border-left: 10px solid transparent
+                border-right: 10px solid transparent
+                border-bottom: 10px solid $highlight-medium
+            &__content
+                background-color: $foreground
+                height: $blh * 5
+                width: $blh * 11
+                -moz-border-radius: 10px
+                -webkit-border-radius: 10px
+                border-radius: 10px
+            .special
+                background-color: $highlight-medium
