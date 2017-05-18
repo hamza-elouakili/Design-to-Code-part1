@@ -1,18 +1,25 @@
 .header-metadata
     //margin-bottom: $blh
-    font-size: $blh * .4
+    font-size: $blh * .5
+    height: $blh * 4
     @extend %flex
     justify-content: space-around
     align-items: center
     -webkit-flex-flow: row
     &__back
+        height: $blh * 2
+        border: 1px $border-breadcrumb solid
+        border-left: none
+        border-top: none
+        border-right: none
         width: 25%
-        background-color: yellow
+        //background-color: yellow
         @extend %flex
         justify-content: center
         align-items: center
         -webkit-flex-flow: row
         &__icon
+            margin-right: $blh * .2
             position: relative
             top: 1px
             -ms-transform: scale(.7)
@@ -24,14 +31,23 @@
         align-items: center
         -webkit-flex-flow: row
         width: 50%
-        background-color: blue
+        //background-color: blue
         color: $info-text
         font-style: italic
+        height: $blh * 2
+        border: 1px $border-breadcrumb solid
+        border-left: none
+        border-top: none
+        border-right: none
     &__right
+        border: 1px $border-breadcrumb solid
+        border-left: none
+        border-top: none
+        border-right: none
         margin: 0
         width: 25%
-        height: $blh * 1.5
-        background-color: red
+        height: $blh * 2
+        //background-color: red
         justify-content: center
         @extend %flex
         align-items: center
@@ -47,18 +63,21 @@
                 left: 8px
                 top: 5px
         .active
-            background-color: black
+            background-color: $foreground
             color: $background
             -moz-border-radius: 50%
             -webkit-border-radius: 50%
             border-radius: 50%
             .arrow-up
-                margin-top: 10px
+                margin-top: 20px
                 width: 0;
                 height: 0;
                 border-left: 10px solid transparent
                 border-right: 10px solid transparent
-                border-bottom: 10px solid black
+                border-bottom: 15px solid $foreground
+                position: relative
+                top: $blh * .65
+                left: 1px
         .icon-metadata
             position: relative
             top: 1px
@@ -76,11 +95,11 @@
         justify-content: center
         -webkit-flex-flow: row
         width: 75%
-        background-color: green
+        //background-color: green
     &__menu-box
-        height: $blh * 5
+        height: $blh * 7
         width: 25%
-        background-color: brown
+        //background-color: brown
         @extend %flex
         //align-items: center
         //justify-content: center
@@ -95,11 +114,45 @@
                 border-right: 10px solid transparent
                 border-bottom: 10px solid $highlight-medium
             &__content
+                font-family: $text-font
+                font-weight: $medium
+                font-size: $bfs * .8
                 background-color: $foreground
-                height: $blh * 5
-                width: $blh * 11
-                -moz-border-radius: 10px
-                -webkit-border-radius: 10px
-                border-radius: 10px
+                height: $blh * 6
+                width: $blh * 12
+                -moz-border-radius: 8px
+                -webkit-border-radius: 8px
+                border-radius: 8px
+                &__item
+                    @extend %flex
+                    align-items: center
+                    //justify-content: center
+                    -webkit-flex-flow: row
+                    padding-top: $blh * .5
+                    color: white
+                    .svg__check
+                        fill: $background
+                    .svg__control-stop
+                        fill: $background
+                    span
+                        margin-left: $blh * .3
+                        margin-right: $blh * .3
+                    span.icon
+                        -ms-transform: scale(.8)
+                        -webkit-transform: scale(.8)
+                        transform: scale(.8)
+                        position: relative
+                        top: 1px
+                .special
+                    color: black
+                    span.icon
+                        .svg__check
+                            fill: $foreground
+                        .svg__control-stop
+                            fill: black
+
             .special
                 background-color: $highlight-medium
+                color: black
+
+
